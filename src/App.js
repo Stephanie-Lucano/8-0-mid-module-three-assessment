@@ -6,6 +6,7 @@ class App extends Component {
     return (
       <>
         <h1>My Garage Sale</h1>
+        <div className="products"></div>
       </>
     )
   };
