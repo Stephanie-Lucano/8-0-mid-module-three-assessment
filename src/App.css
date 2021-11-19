@@ -1,1 +1,9 @@
+.app {
+    display: grid;
+    grid-template-columns: .75fr .25fr ;
+}
 
+.products {
+    display: grid;
+    grid-template-columns: .40fr .40fr;
+}

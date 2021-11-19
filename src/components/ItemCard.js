@@ -7,7 +7,11 @@ const ItemCard = (props) => {
         <div className="item-container">
             <h3>{name}</h3>
             <p>Price: {formatPrice(price)}</p>
-            <button>Add To Cart</button>
+            <button
+                onClick={() => props.handleAddToCartClick(props.item)}
+            >
+                Add To Cart
+            </button>
             <div className="item-image">
                 <img src={img} alt={name}/>
             </div>
